@@ -7,7 +7,6 @@ end
 def summon_captain_planet(powers)
   powers.map do |power|
     "#{power.capitalize}!"
-    # binding.pry
   end
 end
 
